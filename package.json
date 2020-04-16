@@ -1,0 +1,29 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "node demo ",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "mongodb": "^3.5.6",
+    "nodemon": "^2.0.3",
+    "uuid": "^7.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obucl/mongodb-basics.git"
+  },
+  "author": "Obu Chigozie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obucl/mongodb-basics/issues"
+  },
+  "homepage": "https://github.com/obucl/mongodb-basics#readme"
+}
